@@ -2,9 +2,10 @@
 include 'dbconnect.php';
 
 pg_query($pg_conn, `
-CREATE TABLE files(
+CREATE TABLE filestable
+(
 name text,
 file bytea
-)
+);
 `);
  ?>

@@ -1,6 +1,4 @@
-<h1>Links</h1>
-<li>
-  <ul><a href="overzicht.php">Alle bestanden</a>
-  <ul><a href="toevoegen.php">Bestand toevoegen</a>
-  <ul><a href="zoeken.php">Bestanden zoeken</a>
-</li>
+<h2>Links</h2>
+<li><a href="overzicht.php">Alle bestanden</a></li>
+<li><a href="toevoegen.php">Bestand toevoegen</a></li>
+<li><a href="zoeken.php">Bestanden zoeken</a></li>

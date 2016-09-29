@@ -1,11 +1,5 @@
 <?php
 include 'dbconnect.php';
 
-pg_query($pg_conn, `
-CREATE TABLE filestable
-(
-name text,
-filename bytea
-);
-`);
- ?>
+pg_query($pg_conn,"CREATE TABLE filetable(name text,filename bytea);");
+?>

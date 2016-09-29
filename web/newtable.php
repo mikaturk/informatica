@@ -1,5 +1,5 @@
 <?php
-import dbconnect.php;
+include 'dbconnect.php';
 
 pg_query($pg_conn, `
 CREATE TABLE files(
